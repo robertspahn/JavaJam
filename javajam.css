@@ -6,44 +6,53 @@
 
         font-family: Arial, Verdana, sans-serif;
         }
+  header
+        {
+          padding-left: 200px;
+          padding-right: 200px;
+          text-align: center;
+        }
   h1    {
         background-color: #FFCCFF;
         color: #FF0066;
         line-height: 200%;
         font-family: Georgia, "Times New Roman", serif;
         }
-  h2    {
-        background-color: #FF0000;
-        color: #FF0000;
-        font-family: Georgia, "Times New Roman", serif;
-        text-align: center;
-        }
   p     {
+    padding-left: 200px;
+    text-align: left;
         color: #FF0000;
         font-size: .90em;
         }
   ul    {
+        padding-left: 250px;
+        text-align: left;
         font-weight: bold;
         }
   .nav  {
+        text-align: center;
         color: #FF0066;
         font-weight: bold;
         font-size: 1.50em;
         }
   #footer
         {
-        color: #FF0000;
-        font-size: .75em;
+        background-color: #ccaa66
+        color: #000000;
+        font-size: .60em;
         font-style: italic;
+        text-align: center;
         }
-  .companyname
-        {
-          font-weight: bold;
-          font-family: Georgia, "Times New Roman", serif;
-          font-size: 1.25em;
-        }
+
   dt
         {
+          padding-left: 200px;
+          text-align: left;
           font-weight: bold;
           font-size: 1.00em;
+        }
+
+  dd
+        {
+        padding-left: 200px;
         }
