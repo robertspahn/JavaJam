@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="javajam.css">
+
+
+<script type="text/javascript">
+function  func()
+{
+	var user = "user@user.com";
+	var pwd = "test123";
+
+	var mail=document.getElementById("myEmail");
+	var pass=document.getElementById("myPassword");
+	if(mail.value==user && pass.value==pwd)
+	{
+		return true;
+	}
+	else
+	{
+		var errMsg=document.getElementById("errors")
+		errMsg.textContent("Please Enter valid Email and password ");
+		return false;
+	}
+	
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+</header>
+<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="menu.html">Menu</a></li>
+	<li><a href="music.html">Music</a></li>
+	<li><a href="login.html">login</a></li>
+	</ul>
+</nav>
+<main>
+	<h2>Login at JavaJam</h2>
+	<p>Please sign in </p>
+	<form action="/action_page.php" method="get">
+		Email: <input type="text" name="email"><br>
+		Password: <input type="text" name="pass"><br>
+	  <input type="submit" value="Submit">
+	</form>
+</main>
+	<footer>Copyright &copy; 2019 JavaJam Coffee House<br>
+	<i><a href="#">javajam@javajam.com</a></i>
+	</footer>
+</div>
+</body>
+</html>
